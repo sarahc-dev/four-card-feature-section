@@ -1,0 +1,122 @@
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+}
+
+h1 {
+    color: hsl(234, 12%, 34%);
+    font-size: 1.5em;
+}
+
+.header {
+    font-weight: 200;
+    margin: 75px auto 5px;
+
+}
+
+.bold-header {
+    margin-top: 5px;
+
+}
+
+.intro {
+    margin: auto 30px 60px;
+}
+
+.box-header {
+    color: hsl(234, 12%, 34%);
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.box-content {
+    margin: 0 20px auto 30px;
+    font-size: 0.9em;
+}
+
+.icon {
+    position: relative;
+    left: 70%;
+    margin: 20px auto;
+}
+
+div {
+    margin: 20px;
+    text-align: left;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px hsl(229, 6%, 66%);
+}
+
+.supervisor {
+    border-top: hsl(180, 62%, 55%) solid 5px;
+}
+
+.team-builder {
+    border-top: hsl(0, 78%, 62%) solid 5px;
+}
+
+.karma {
+    border-top: hsl(34, 97%, 64%) solid 5px;
+}
+
+.calculator {
+    border-top: hsl(212, 86%, 64%) solid 5px;
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 600px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .intro {
+        width: 40%;
+        margin: 0 auto 5em;
+    }
+
+    div {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .main-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .main-section div:nth-child(3) {
+        grid-column: 2 / 3;
+        grid-row: 2 / 2;
+    }
+
+    .karma p {
+        width: 80%;
+    }
+
+    .supervisor {
+        position: relative;
+        left: 50px;
+        top: 140px;
+    }
+
+    .calculator {
+        position: relative;
+        right: 50px;
+        top: 140px;
+    }
+}
